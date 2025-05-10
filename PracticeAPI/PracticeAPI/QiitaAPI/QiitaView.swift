@@ -62,7 +62,6 @@ struct ArticleRow: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
             HStack {
-                // ユーザーアイコン (iOS 15.0以上)
                 if let imageUrlString = article.user.profileImageUrl, let imageUrl = URL(string: imageUrlString) {
                     AsyncImage(url: imageUrl) { image in
                         image.resizable()
