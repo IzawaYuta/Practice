@@ -74,7 +74,3 @@ class QiitaViewModel: ObservableObject {
         isLoading = false
     }
 }
-
-#Preview {
-    QiitaViewModel()
-}
