@@ -21,7 +21,7 @@ struct QiitaView: View {
                         .padding()
                     Button("再試行") {
                         Task {
-                            await viewModel.fetchArticles()
+                            await viewModel.fetchArticles() // awaitは非同期処理の際に使う
                         }
                     }
                 } else {
