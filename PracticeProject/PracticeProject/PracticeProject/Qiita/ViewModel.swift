@@ -1,17 +1,16 @@
 //
-//  QiitaViewModel.swift
-//  PracticeAPI
+//  ViewModel.swift
+//  PracticeProject
 //
-//  Created by Engineer MacBook Air on 2025/05/10.
+//  Created by Engineer MacBook Air on 2025/05/16.
 //
 
 import SwiftUI
 
-//@MainActor // UI更新をメインスレッドで行うことを保証
-class QiitaViewModel: ObservableObject {
-    @Published var articles: [Article] = [] // Qiita APIから取得した記事のリストを格納
-    @Published var isLoading: Bool = false // APIからデータを取得中であるかどうか
-    @Published var errorMessage: String? = nil // APIリクエスト中にエラーが発生した場合
+class ViewModel: ObservableObject {
+    @Published var articles: [Article] = []
+    @Published var isLoading: Bool = false
+    @Published var errorMessage: String? = nil
     
     private let qiitaAPIURL = "https://qiita.com/api/v2/items"
     
