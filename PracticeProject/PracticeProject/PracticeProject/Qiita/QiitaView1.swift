@@ -1,14 +1,14 @@
 //
-//  QiitaView.swift
-//  PracticeAPI
+//  View.swift
+//  PracticeProject
 //
-//  Created by Engineer MacBook Air on 2025/05/10.
+//  Created by Engineer MacBook Air on 2025/05/16.
 //
 
 import SwiftUI
 
-struct QiitaView: View {
-    @StateObject private var viewModel = QiitaViewModel()
+struct QiitaView1: View {
+    @StateObject private var viewModel = ViewModel()
     
     var body: some View {
         NavigationView {
@@ -21,7 +21,7 @@ struct QiitaView: View {
                         .padding()
                     Button("再試行") {
                         Task {
-                            await viewModel.fetchArticles() // awaitは非同期処理の際に使う
+                            await viewModel.fetchArticles()
                         }
                     }
                 } else {
@@ -62,6 +62,7 @@ struct ArticleRow: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
             HStack {
+                // ユーザーアイコン (iOS 15.0以上)
                 if let imageUrlString = article.user.profileImageUrl, let imageUrl = URL(string: imageUrlString) {
                     AsyncImage(url: imageUrl) { image in
                         image.resizable()
@@ -119,5 +120,5 @@ struct ArticleRow: View {
 }
 
 #Preview {
-    QiitaView()
+    QiitaView1()
 }
