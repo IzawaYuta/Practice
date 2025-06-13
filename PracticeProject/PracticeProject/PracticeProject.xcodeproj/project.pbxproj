@@ -18,7 +18,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		A6F85E292DFB124F00AC579C /* Exceptions for "PracticeProject" folder in "PracticeProject" target */ = {
+		A6D250122DFBB16A0075F79D /* Exceptions for "PracticeProject" folder in "PracticeProject" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -31,7 +31,7 @@
 		A61C3FF12DD76BB000870580 /* PracticeProject */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				A6F85E292DFB124F00AC579C /* Exceptions for "PracticeProject" folder in "PracticeProject" target */,
+				A6D250122DFBB16A0075F79D /* Exceptions for "PracticeProject" folder in "PracticeProject" target */,
 			);
 			path = PracticeProject;
 			sourceTree = "<group>";
