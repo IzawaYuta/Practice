@@ -18,7 +18,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		A6D250122DFBB16A0075F79D /* Exceptions for "PracticeProject" folder in "PracticeProject" target */ = {
+		A69A60F42E0580600022959D /* Exceptions for "PracticeProject" folder in "PracticeProject" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -28,10 +28,10 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		A61C3FF12DD76BB000870580 /* PracticeProject */ = {
+		A69A60E72E0580600022959D /* PracticeProject */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				A6D250122DFBB16A0075F79D /* Exceptions for "PracticeProject" folder in "PracticeProject" target */,
+				A69A60F42E0580600022959D /* Exceptions for "PracticeProject" folder in "PracticeProject" target */,
 			);
 			path = PracticeProject;
 			sourceTree = "<group>";
@@ -61,7 +61,7 @@
 		A61C3FE62DD76BB000870580 = {
 			isa = PBXGroup;
 			children = (
-				A61C3FF12DD76BB000870580 /* PracticeProject */,
+				A69A60E72E0580600022959D /* PracticeProject */,
 				A61C3FF02DD76BB000870580 /* Products */,
 				F9E6F0781EFEBF50CD30D705 /* Pods */,
 				9E6E054F7E090D3CAC66209B /* Frameworks */,
@@ -103,7 +103,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				A61C3FF12DD76BB000870580 /* PracticeProject */,
+				A69A60E72E0580600022959D /* PracticeProject */,
 			);
 			name = PracticeProject;
 			productName = PracticeProject;
@@ -134,6 +134,8 @@
 			);
 			mainGroup = A61C3FE62DD76BB000870580;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = A61C3FF02DD76BB000870580 /* Products */;
 			projectDirPath = "";
